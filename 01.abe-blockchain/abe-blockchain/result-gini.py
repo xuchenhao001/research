@@ -5,6 +5,7 @@
 import math
 import numpy as np
 from matplotlib import pyplot as plt
+import matplotlib.font_manager as font_manager
 
 
 # calculate Gini coefficient
@@ -95,6 +96,14 @@ def main():
 
     # drow the plot
     fig, axes = plt.subplots()
+
+    csfont = {'fontname': 'Times New Roman'}
+    legendFont = font_manager.FontProperties(family='Times New Roman')
+    xylabelFont = font_manager.FontProperties(family='Times New Roman')
+    csXYLabelFont = {'fontproperties': xylabelFont}
+    axesFont = font_manager.FontProperties(family='Times New Roman')
+    csAxesFont = {'fontproperties': axesFont}
+
     axes.plot(xarray_6_2, xarray_6_2, linestyle='--', label="Line of ideal decentralization")
     axes.plot(xarray_6_2, yarray_6_2, marker="o", label="η=4, σ=2")
     axes.plot(xarray_8_2, yarray_8_2, marker="^", label="η=8, σ=2")
@@ -104,11 +113,14 @@ def main():
     axes.annotate('P(Θ) = 0.25', xy=(0.25, 0), xycoords='data',
                   xytext=(-100, 60), textcoords='offset points',
                   arrowprops=dict(arrowstyle="->", fc='0.6',
-                                  connectionstyle="angle3,angleA=0,angleB=-90"))
+                                  connectionstyle="angle3,angleA=0,angleB=-90"),
+                  family='Times New Roman')
 
-    plt.xlabel('Cumulative Percentage of organizations', fontsize=16)
-    plt.ylabel('Cumulative Percentage of χ', fontsize=16)
-    plt.legend()
+    plt.xlabel('Cumulative Percentage of organizations', fontsize=16, **csfont)
+    plt.ylabel('Cumulative Percentage of χ', fontsize=16, **csfont)
+    plt.xticks(**csAxesFont)
+    plt.yticks(**csAxesFont)
+    plt.legend(prop=legendFont)
     plt.grid()
     plt.show()
 

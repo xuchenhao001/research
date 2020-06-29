@@ -2,6 +2,7 @@
 # !/usr/bin/python
 
 import matplotlib.pyplot as plt
+import matplotlib.font_manager as font_manager
 
 x = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 ps = [88.0078125, 103.359375, 118.875, 134.578125, 150.5078125, 166.5898438, 182.859375, 199.3671875, 216.015625,
@@ -19,15 +20,25 @@ pels5 = [415.0195313, 484.1894531, 553.359375, 622.5292969, 691.6992188, 760.869
 
 
 fig, axes = plt.subplots()
-axes.plot(x, ps, marker="o", label="PS")
+
+csfont = {'fontname': 'Times New Roman'}
+legendFont = font_manager.FontProperties(family='Times New Roman')
+xylabelFont = font_manager.FontProperties(family='Times New Roman')
+csXYLabelFont = {'fontproperties': xylabelFont}
+axesFont = font_manager.FontProperties(family='Times New Roman')
+csAxesFont = {'fontproperties': axesFont}
+
+axes.plot(x, ps, marker="o", label="MA-ABE")
 axes.plot(x, fixa, marker="^", label="FIXA")
 axes.plot(x, csl, marker="s", label="CSL")
 # axes.plot(x, pels3, marker="x", label="PEL s3")
 # axes.plot(x, pels4, marker="D", label="PEL s4")
 axes.plot(x, pels5, marker="*", label="PEL")
 
-plt.xlabel("η", fontsize=16)
-plt.ylabel("Storage Consumption (KB)", fontsize=16)
-plt.legend()
+plt.xlabel("η", fontsize=16, **csfont)
+plt.ylabel("Storage Consumption (KB)", fontsize=16, **csfont)
+plt.xticks(**csAxesFont)
+plt.yticks(**csAxesFont)
+plt.legend(prop=legendFont)
 plt.grid()
 plt.show()

@@ -2,6 +2,7 @@
 # !/usr/bin/python
 
 import matplotlib.pyplot as plt
+import matplotlib.font_manager as font_manager
 
 x = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 # ps = [0.081521676, 0.08178736, 0.083384664, 0.084784245, 0.085623646, 0.08763931, 0.087209926, 0.088188603,
@@ -27,15 +28,24 @@ pels5 = [1.104557583, 1.105303349, 1.104967299, 1.107792332, 1.106249318, 1.1047
 
 fig, axes = plt.subplots()
 
-axes.plot(x, ps, marker="o", label="PS")
+csfont = {'fontname': 'Times New Roman'}
+legendFont = font_manager.FontProperties(family='Times New Roman')
+xylabelFont = font_manager.FontProperties(family='Times New Roman')
+csXYLabelFont = {'fontproperties': xylabelFont}
+axesFont = font_manager.FontProperties(family='Times New Roman')
+csAxesFont = {'fontproperties': axesFont}
+
+axes.plot(x, ps, marker="o", label="MA-ABE")
 axes.plot(x, fixa, marker="^", label="FIXA")
 axes.plot(x, csl, marker="s", label="CSL")
 # axes.plot(x, pels3, marker="x", label="PEL s3")
 # axes.plot(x, pels4, marker="D", label="PEL s4")
 axes.plot(x, pels5, marker="*", label="PEL")
 
-plt.xlabel("η", fontsize=16)
-plt.ylabel("Latency (s)", fontsize=16)
-plt.legend()
+plt.xlabel("η", fontsize=16, **csfont)
+plt.ylabel("Latency (s)", fontsize=16, **csfont)
+plt.xticks(**csAxesFont)
+plt.yticks(**csAxesFont)
+plt.legend(prop=legendFont)
 plt.grid()
 plt.show()
