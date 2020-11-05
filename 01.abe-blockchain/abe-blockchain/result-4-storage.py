@@ -35,7 +35,7 @@ axes.plot(x, csl, marker="s", label="CSL")
 # axes.plot(x, pels4, marker="D", label="PEL s4")
 axes.plot(x, pels5, marker="*", label="PEL")
 
-plt.xlabel("η", fontsize=16, **csfont)
+plt.xlabel("The number of organizations participate in blockchain", fontsize=16, **csfont)
 plt.ylabel("Storage Consumption (KB)", fontsize=16, **csfont)
 plt.xticks(**csAxesFont)
 plt.yticks(**csAxesFont)
