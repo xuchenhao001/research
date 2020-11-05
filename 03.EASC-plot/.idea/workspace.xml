@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce76b078-f44e-4207-b12c-9a3904e5fa4a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="b269418a-7b98-4865-a6fb-e01076b984b4" />
+  <component name="ProjectId" id="1iZqG8W1RWxm4ZGKJWQJPQ27sOW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Downloads/figures/attack/mlp-mnist-under-attack.png" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/network-10-peers/cnn-mnist" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/network-10-peers/attack" />
+      <recent name="$PROJECT_DIR$/results/output" />
+      <recent name="$PROJECT_DIR$/network-10-peers/mlp-mnist" />
+      <recent name="$PROJECT_DIR$/network-10-peers/cnn-cifar" />
+      <recent name="$PROJECT_DIR$/network-10-peers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.mnist-mlp-under-attack">
+    <configuration name="cnn-cifar-attack-defense" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="evaluate-availability" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network-10-peers/attack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network-10-peers/attack/cnn-cifar-attack-defense.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cnn-cifar-under-attack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="evaluate-availability" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network-10-peers/attack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network-10-peers/attack/cnn-cifar-under-attack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cnn-mnist-under-attack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="evaluate-availability" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network-10-peers/attack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network-10-peers/attack/cnn-mnist-under-attack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mnist-mlp-attack-defense" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="evaluate-availability" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network-10-peers/attack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network-10-peers/attack/mnist-mlp-attack-defense.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mnist-mlp-under-attack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="evaluate-availability" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network-10-peers/attack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network-10-peers/attack/mnist-mlp-under-attack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="network-2-peers" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="evaluate-availability" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network-2-peers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mnist-mlp-under-attack" />
+        <item itemvalue="Python.mnist-mlp-attack-defense" />
+        <item itemvalue="Python.cnn-cifar-attack-defense" />
+        <item itemvalue="Python.cnn-cifar-under-attack" />
+        <item itemvalue="Python.cnn-mnist-under-attack" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce76b078-f44e-4207-b12c-9a3904e5fa4a" name="Default Changelist" comment="" />
+      <created>1602125362838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602125362838</updated>
+      <workItem from="1602125364154" duration="592000" />
+      <workItem from="1602125978232" duration="5198000" />
+      <workItem from="1602165391153" duration="639000" />
+      <workItem from="1602210057877" duration="4507000" />
+      <workItem from="1602340594705" duration="6133000" />
+      <workItem from="1602629053341" duration="33000" />
+      <workItem from="1602629931404" duration="11000" />
+      <workItem from="1602978548877" duration="16912000" />
+      <workItem from="1603084593072" duration="46000" />
+      <workItem from="1603117168044" duration="167000" />
+      <workItem from="1603119355716" duration="4155000" />
+      <workItem from="1603154283427" duration="22000" />
+      <workItem from="1603233637505" duration="1371000" />
+      <workItem from="1603254549039" duration="2373000" />
+      <workItem from="1603259096154" duration="1150000" />
+      <workItem from="1603443208494" duration="566000" />
+      <workItem from="1603444156022" duration="7010000" />
+      <workItem from="1603516896992" duration="38022000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="804" y="272" width="450" height="514" key="FileChooserDialogImpl" timestamp="1603714481441">
+      <screen x="67" y="27" width="1853" height="923" />
+    </state>
+    <state x="804" y="272" width="450" height="514" key="FileChooserDialogImpl/67.27.1853.923@67.27.1853.923" timestamp="1603714481441" />
+    <state width="1807" height="218" key="GridCell.Tab.0.bottom" timestamp="1603713825340">
+      <screen x="67" y="27" width="1853" height="923" />
+    </state>
+    <state width="1807" height="218" key="GridCell.Tab.0.bottom/67.27.1853.923@67.27.1853.923" timestamp="1603713825340" />
+    <state width="1807" height="218" key="GridCell.Tab.0.center" timestamp="1603713825338">
+      <screen x="67" y="27" width="1853" height="923" />
+    </state>
+    <state width="1807" height="218" key="GridCell.Tab.0.center/67.27.1853.923@67.27.1853.923" timestamp="1603713825338" />
+    <state width="1807" height="218" key="GridCell.Tab.0.left" timestamp="1603713825337">
+      <screen x="67" y="27" width="1853" height="923" />
+    </state>
+    <state width="1807" height="218" key="GridCell.Tab.0.left/67.27.1853.923@67.27.1853.923" timestamp="1603713825337" />
+    <state width="1807" height="218" key="GridCell.Tab.0.right" timestamp="1603713825339">
+      <screen x="67" y="27" width="1853" height="923" />
+    </state>
+    <state width="1807" height="218" key="GridCell.Tab.0.right/67.27.1853.923@67.27.1853.923" timestamp="1603713825339" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_cifar_acc_skew3.coverage" NAME="cnn-cifar-acc-skew3 Coverage Results" MODIFIED="1603148701970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-cifar" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_cifar_attack_defense.coverage" NAME="cnn-cifar-attack-defense Coverage Results" MODIFIED="1603713703716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/attack" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_minist_skew1.coverage" NAME="cnn-minist-skew1 Coverage Results" MODIFIED="1602980677593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_minist_cost_comunication.coverage" NAME="cnn-minist-cost-comunication Coverage Results" MODIFIED="1602983512571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_mnist_attack_defense.coverage" NAME="cnn-mnist-attack-defense Coverage Results" MODIFIED="1603693946908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/attack" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_minist_skew4.coverage" NAME="cnn-minist-skew4 Coverage Results" MODIFIED="1602982207246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_cifar_acc_scei.coverage" NAME="cnn-cifar-acc-scei Coverage Results" MODIFIED="1603693005810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-cifar" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_mnist_cost_total.coverage" NAME="cnn-mnist-cost-total Coverage Results" MODIFIED="1603693173629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$network_20_peers.coverage" NAME="network-20-peers Coverage Results" MODIFIED="1602374565333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_mnist_acc_skew3.coverage" NAME="cnn-mnist-acc-skew3 Coverage Results" MODIFIED="1603148934415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_cifar_under_attack.coverage" NAME="cnn-cifar-under-attack Coverage Results" MODIFIED="1603713677142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/attack" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$mnist_mlp_attack_defense.coverage" NAME="mnist-mlp-attack-defense Coverage Results" MODIFIED="1603713766718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/attack" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_mnist_acc_skew4.coverage" NAME="cnn-mnist-acc-skew4 Coverage Results" MODIFIED="1603148977278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$network_4_peers.coverage" NAME="network-4-peers Coverage Results" MODIFIED="1602369652472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_mnist_acc.coverage" NAME="cnn-mnist-acc Coverage Results" MODIFIED="1603692956564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$mlp_mnist_convergence.coverage" NAME="mlp-mnist-convergence Coverage Results" MODIFIED="1603629037296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/mlp-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$mlp_mnist_cost_comunication.coverage" NAME="mlp-mnist-cost-comunication Coverage Results" MODIFIED="1603693122967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/mlp-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$mlp_mnist_acc_skew2.coverage" NAME="mlp-mnist-acc-skew2 Coverage Results" MODIFIED="1603149224415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/mlp-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$network_30_peers.coverage" NAME="network-30-peers Coverage Results" MODIFIED="1602374583566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_cifar_acc_skew1.coverage" NAME="cnn-cifar-acc-skew1 Coverage Results" MODIFIED="1603148645040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-cifar" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$mlp_mnist_acc_scei.coverage" NAME="mlp-mnist-acc-scei Coverage Results" MODIFIED="1603693058585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/mlp-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_cifar_acc_skew2.coverage" NAME="cnn-cifar-acc-skew2 Coverage Results" MODIFIED="1603148675012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-cifar" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_mnist_cost_comunication.coverage" NAME="cnn-mnist-cost-comunication Coverage Results" MODIFIED="1603693107134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_minist_skew3.coverage" NAME="cnn-minist-skew3 Coverage Results" MODIFIED="1602981952560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$mlp_mnist_acc_skew1.coverage" NAME="mlp-mnist-acc-skew1 Coverage Results" MODIFIED="1603149190270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/mlp-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$mnist_mlp_under_attack.coverage" NAME="mnist-mlp-under-attack Coverage Results" MODIFIED="1603713825331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/attack" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$merge_results.coverage" NAME="merge-results Coverage Results" MODIFIED="1603582462940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/results" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$mlp_mnist_acc_skew3.coverage" NAME="mlp-mnist-acc-skew3 Coverage Results" MODIFIED="1603149247765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/mlp-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$mlp_mnist_cost_total.coverage" NAME="mlp-mnist-cost-total Coverage Results" MODIFIED="1603693188848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/mlp-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$network_diff.coverage" NAME="network-diff Coverage Results" MODIFIED="1602374610277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_mnist_acc_scei__1_.coverage" NAME="mlp-mnist-acc-scei Coverage Results" MODIFIED="1603031498581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/mlp-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_cifar_cost_comunication.coverage" NAME="cnn-cifar-cost-comunication Coverage Results" MODIFIED="1603693086385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-cifar" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$network_2_peers.coverage" NAME="network-2-peers Coverage Results" MODIFIED="1602374541906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_mnist_under_attack.coverage" NAME="cnn-mnist-under-attack Coverage Results" MODIFIED="1603693955950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/attack" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_cifar_cost_total.coverage" NAME="cnn-cifar-cost-total Coverage Results" MODIFIED="1603693151060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-cifar" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$time_datasize.coverage" NAME="time-datasize Coverage Results" MODIFIED="1603256403141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_cifar_convergence.coverage" NAME="cnn-cifar-convergence Coverage Results" MODIFIED="1603628895150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-cifar" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_cifar_acc.coverage" NAME="cnn-cifar-acc Coverage Results" MODIFIED="1603692926777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-cifar" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$mlp_mnist_acc.coverage" NAME="mlp-mnist-acc Coverage Results" MODIFIED="1603692974095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/mlp-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_mnist_cost_total__1_.coverage" NAME="cnn-mnist-cost-total (1) Coverage Results" MODIFIED="1603061910749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-cifar" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_mnist_no_attack.coverage" NAME="cnn-mnist-no-attack Coverage Results" MODIFIED="1603602931241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/attack" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_minist_acc.coverage" NAME="cnn-minist-acc Coverage Results" MODIFIED="1602980217518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_minist_skew2.coverage" NAME="cnn-minist-skew2 Coverage Results" MODIFIED="1602980876447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_mnist_acc_skew1.coverage" NAME="cnn-mnist-acc-skew1 Coverage Results" MODIFIED="1603148869705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_minist_cost_total.coverage" NAME="cnn-minist-cost-total Coverage Results" MODIFIED="1602983340240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_cifar_acc_skew4.coverage" NAME="cnn-cifar-acc-skew4 Coverage Results" MODIFIED="1603148727106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-cifar" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_mnist_acc_scei.coverage" NAME="cnn-mnist-acc-scei Coverage Results" MODIFIED="1603693038378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$mlp_mnist_acc_skew4.coverage" NAME="mlp-mnist-acc-skew4 Coverage Results" MODIFIED="1603149301301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/mlp-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$network_10_peers.coverage" NAME="network-10-peers Coverage Results" MODIFIED="1602374554288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_mnist_acc_skew2.coverage" NAME="cnn-mnist-acc-skew2 Coverage Results" MODIFIED="1603148901590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-mnist" />
+    <SUITE FILE_PATH="coverage/evaluate_availability$cnn_mnist_convergence.coverage" NAME="cnn-mnist-convergence Coverage Results" MODIFIED="1603628954205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network-10-peers/cnn-mnist" />
+  </component>
+</project>
