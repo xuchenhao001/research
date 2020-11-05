@@ -20,6 +20,8 @@ pels3 = [0.502230, 0.575212, 0.626672, 0.669610, 0.701338, 0.729681, 0.751115, 0
 pels4 = [0.343232, 0.434285, 0.507424, 0.559999, 0.605939, 0.640000, 0.671616, 0.695384, 0.718528, 0.736000, 0.753712, 0.767059, 0.781077, 0.791579, 0.802970]
 pels5 = [0.181289, 0.301482, 0.385967, 0.456708, 0.508773, 0.555489, 0.590644, 0.623875, 0.649124, 0.674025, 0.692983, 0.712375, 0.727096, 0.742651, 0.754387]
 
+ps_pbft = [0.500000, 0.571429, 0.500000, 0.555556, 0.500000, 0.545455, 0.500000, 0.538462, 0.500000, 0.533333, 0.500000, 0.529412, 0.500000, 0.526316, 0.500000]
+fixa_pbft = [0.51, 0.581429, 0.51, 0.565556, 0.51, 0.555455, 0.51, 0.548462, 0.51, 0.543333, 0.51, 0.539412, 0.51, 0.536316, 0.51]
 
 fig, axes = plt.subplots()
 
@@ -30,8 +32,10 @@ csXYLabelFont = {'fontproperties': xylabelFont}
 axesFont = font_manager.FontProperties(family='Times New Roman')
 csAxesFont = {'fontproperties': axesFont}
 
-axes.plot(x, ps, marker="o", label="MA-ABE")
-axes.plot(x, fixa, marker="^", label="FIXA", linestyle="--")
+axes.plot(x, ps, marker="o", label="MA-ABE PoS")
+axes.plot(x, ps_pbft, marker="D", label="MA-ABE PBFT")
+axes.plot(x, fixa, marker="^", label="FIXA PoS", linestyle="--")
+axes.plot(x, fixa_pbft, marker="*", label="FIXA PBFT", linestyle="--")
 # axes.plot(x, csl, marker="s", label="CSL")
 # axes.plot(x, pels1, marker="x", label="PEL s1")
 axes.plot(x, pels2, marker="x", label="PEL")

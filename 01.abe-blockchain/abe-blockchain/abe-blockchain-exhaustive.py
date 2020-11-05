@@ -46,8 +46,8 @@ def decentralization(eta, varphi, alpha, Upsilon, Theta, sigma):
 
     chi = []
     for i in range(eta):
-        chi.append(Theta[i] * Upsilon[i] / (varphi ** (alpha / eta)) * xi[i])
-        # chi.append(Theta[i] * Upsilon[i] * xi[i])
+        # chi.append(Theta[i] * Upsilon[i] / (varphi ** (alpha / eta)) * xi[i])
+        chi.append(Theta[i] * Upsilon[i] / (varphi ** (alpha / eta)))  # for pbft
 
     gini = Gini(chi)
     return gini
@@ -264,11 +264,11 @@ if __name__ == "__main__":
 
     # Here starts decentralization:
     # decentralization_ps()
-    # decentralization_fixa()
+    decentralization_fixa()
     # decentralization_csl()
     # decentralization_pels1()
     # decentralization_pels2()
     # decentralization_pels3()
     # decentralization_pels4()
-    decentralization_pels5()
+    # decentralization_pels5()
 
