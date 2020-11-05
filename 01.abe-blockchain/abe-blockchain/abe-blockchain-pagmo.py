@@ -83,7 +83,8 @@ class Schaffer:
     def fitness(self, x):
         # independent variable definition
         alpha = int(round(x[0]))
-        eta = int(round(x[1]))
+        # eta = int(round(x[1]))
+        eta = 20
 
         # parameters here
         # print(alpha, eta, S_tau)
@@ -112,7 +113,7 @@ class Schaffer:
 
     # Return bounds of decision variables
     def get_bounds(self):
-        return ([6, 7], [20, 20])
+        return ([6], [20])
 
     # Return function name
     def get_name(self):
@@ -159,7 +160,8 @@ for fit in fitness:
 print("===== Here starts the chromosomes of the individuals =====")
 chromosomes = pop.get_x()
 for chromosome in chromosomes:
-    print("[", int(round(chromosome[0])), ", ", int(round(chromosome[1])), "]")
+    # print("[", int(round(chromosome[0])), ", ", int(round(chromosome[1])), "]")
+    print("[", chromosome[0], "]")
 print("===== Here starts the hypervolume of the individuals =====")
 hv = hypervolume(pop)
 ref_point = [2000, 20, 20, 400]
