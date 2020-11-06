@@ -116,8 +116,8 @@ def main():
                                   connectionstyle="angle3,angleA=0,angleB=-90"),
                   family='Times New Roman')
 
-    plt.xlabel('Cumulative Percentage of organizations', fontsize=16, **csfont)
-    plt.ylabel('Cumulative Percentage of χ', fontsize=16, **csfont)
+    plt.xlabel('Cumulative proportion of organizations', fontsize=16, **csfont)
+    plt.ylabel('Cumulative proportion of weights', fontsize=16, **csfont)
     plt.xticks(**csAxesFont)
     plt.yticks(**csAxesFont)
     plt.legend(prop=legendFont)
